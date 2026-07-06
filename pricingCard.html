@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Pricing Cards</title>
+
+    <link rel="stylesheet" href="pricingCard.css" />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="pricing">
+      <h1>Choose Your Plan</h1>
+      <p>Affordable pricing for everyone.</p>
+
+      <div class="toggle-box">
+        <span>Monthly</span>
+
+        <label class="switch">
+          <input type="checkbox" id="priceToggle" />
+          <span class="slider"></span>
+        </label>
+
+        <span>Yearly <small>(Save 20%)</small></span>
+      </div>
+
+      <div class="cards">
+        <!-- Basic -->
+        <div class="card">
+          <h3>Basic</h3>
+
+          <div class="price">
+            $<span class="amount" data-month="9" data-year="86">9</span>
+            <small><strong>/month</strong></small>
+          </div>
+
+          <ul>
+            <li><i class="fa-solid fa-check"></i> 5 Projects</li>
+            <li><i class="fa-solid fa-check"></i> 5GB Storage</li>
+            <li><i class="fa-solid fa-check"></i> Email Support</li>
+            <li><i class="fa-solid fa-xmark"></i> Analytics</li>
+          </ul>
+
+          <button>Go with this</button>
+        </div>
+
+        <!-- Pro -->
+        <div class="card featured">
+          <div class="badge">Most Popular</div>
+
+          <h3>Pro</h3>
+
+          <div class="price">
+            $<span class="amount" data-month="19" data-year="182">19</span>
+            <small><strong>/month</strong></small>
+          </div>
+
+          <ul>
+            <li><i class="fa-solid fa-check"></i> Unlimited Projects</li>
+            <li><i class="fa-solid fa-check"></i> 100GB Storage</li>
+            <li><i class="fa-solid fa-check"></i> Priority Support</li>
+            <li><i class="fa-solid fa-check"></i> Analytics</li>
+          </ul>
+
+          <button>Buy Now</button>
+        </div>
+
+        <!-- Enterprise -->
+        <div class="card">
+          <h3>Enterprise</h3>
+
+          <div class="price">
+            $<span class="amount" data-month="39" data-year="374">39</span>
+            <small><strong>/month</strong></small>
+          </div>
+
+          <ul>
+            <li><i class="fa-solid fa-check"></i> Unlimited Everything</li>
+            <li><i class="fa-solid fa-check"></i> Dedicated Server</li>
+            <li><i class="fa-solid fa-check"></i> 24/7 Support</li>
+            <li><i class="fa-solid fa-check"></i> Advanced Analytics</li>
+          </ul>
+
+          <button>Contact Sales</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="pricingCard.js"></script>
+  </body>
+</html>
