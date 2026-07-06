@@ -11,7 +11,7 @@ A simple, reusable **Pricing Card** component built with frontend technologies i
 
 ## Demo
 
-<video src="assets/pricingCard.mp4">Demo</video>
+![Demo] (assets/pricingCard.mp4)
 
 ## Features
 
