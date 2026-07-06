@@ -32,19 +32,6 @@ A simple, reusable **Pricing Card** component built with frontend technologies i
 import PricingCard from "./PricingCard";
 ```
 
-### 2) Provide data via props
-
-```js
-<PricingCard
-  title="Pro"
-  price="$19"
-  billing="/ month"
-  description="For growing teams"
-  features={["Unlimited projects", "Priority support", "Team analytics"]}
-  popular
-/>
-```
-
 ## Customization
 
 - Update colors / typography via CSS or Tailwind utility classes (depending on the implementation).
