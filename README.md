@@ -24,14 +24,6 @@ A simple, reusable **Pricing Card** component built with frontend technologies i
 
 - `frontend/pricingCard/` — contains the UI implementation and related assets.
 
-## How to use
-
-### 1) Import the component
-
-```js
-import PricingCard from "./PricingCard";
-```
-
 ## Customization
 
 - Update colors / typography via CSS or Tailwind utility classes (depending on the implementation).
